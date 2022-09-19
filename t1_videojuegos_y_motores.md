@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="img/md_style.css">
+<!-- <link rel="stylesheet" href="img/md_style.css"> -->
 
 
 
@@ -27,7 +27,7 @@ Hay diferentes opiniones acerca de cual fue el primer videojuego, como ya hemos 
 
 | OXO | Tennis for Two |
 | -- | -- |
-| ![in_table](img/tennis_for_two.webp) | ![in_table](img/oxo.jpg) |
+| <img src="img/oxo.jpg" width="200" />| <img src="img/tennis_for_two.webp" width="200" />|
 
 </center>
 
@@ -52,7 +52,7 @@ Despues de algunos problemas en Atari, cuantro de los programadores que trabajab
 
 | Pong | Space Invaders | Pacman | Donkey Kong |
 | -- | -- | -- | -- |
-| ![in_table](img/pong.png) | ![in_table](img/space_invaders.webp) | ![in_table](img/pacman.jpg) | ![in_table](img/donkey_kong.png) |
+| <img src="img/pong.png" width="200" />| <img src="img/space_invaders.webp" width="200" />| <img src="img/pacman.jpg" width="200" />| <img src="img/donkey_kong.png" width="200" /> |
 
 </center>
 
@@ -74,7 +74,7 @@ Esta videoconsola es un empujón para la industria que empieza a recuperar la no
 
 | Magnavox Odyssey | Pong Arcade | N.E.S. |
 | -- | -- | -- |
-| ![in_table](img/console_odyssey.webp) | ![in_table](img/console_pong.jpg) | ![in_table](img/console_NES.jpg)
+| <img src="img/console_odyssey.webp" width="200" />| <img src="img/console_pong.jpg" width="200" />| <img src="img/console_NES.jpg" width="200" />
 
 </center>
 
@@ -123,7 +123,9 @@ Eso, sin contar la propia documentación de Unity claro. Al ser una herramienta 
 
 Unity cuenta con una versión gratuita que podremos usar siempre que no excedamos unas ganancias definidas. [Comparación planes Unity](https://store.unity.com/compare-plans).
 
-![big](img/summary_unity.jpg)
+<center>
+<img src="img/summary_unity.jpg" width="80%" />
+</center>
 
 Web: https://unity.com/es
 
@@ -138,7 +140,9 @@ Es ideal para crear juegos **[Triple A](https://es.wikipedia.org/wiki/AAA_(indus
 
 > El vocabulario marcado con asterisco (*) se encuentra explicado en el anexo. Puedes dar click en el asterisco para ir directamente.
 
-![big](img/summary_unreal.webp)
+<center>
+<img src="img/summary_unreal.webp" width="80%" />
+</center>
 
 Web: https://www.unrealengine.com
 
@@ -155,8 +159,9 @@ Hasta ahora, no ha sido el mejor motor si lo que queremos son gráficos 3D avanz
 
 Tiene una gran comunidad activa que va mejorando el código y la documentación así como la cantidad y calidad de los tutoriales.
 
-![big](img/summary_godot.png)
-
+<center>
+<img src="img/summary_godot.png" width="80%" />
+</center>
 Web: https://godotengine.org
 
 
