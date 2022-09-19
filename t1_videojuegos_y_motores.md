@@ -1,8 +1,3 @@
-
-<!-- <link rel="stylesheet" href="img/md_style.css"> -->
-
-
-
 # Videojuegos y Motores
 
 En este tema veremos brevemente qué es un videojuego, cómo surgen y su evolución así como los motores de videojuegos que existen actualmente y una justificación de nuestra elección.
@@ -23,13 +18,13 @@ Diremos por tanto que un videojuego es un juego electrónico.
 
 Hay diferentes opiniones acerca de cual fue el primer videojuego, como ya hemos visto, todo depende de la definición que demos. Tal y como lo hemos definido nosotros, los primeros ejemplos los encontramos en el [OXO](https://es.wikipedia.org/wiki/OXO) (1952) y el [Tennis for Two](https://es.wikipedia.org/wiki/Tennis_for_Two) (1958).
 
-<center>
+<p align="center">
 
 | OXO | Tennis for Two |
 | -- | -- |
 | <img src="img/oxo.jpg" width="200" />| <img src="img/tennis_for_two.webp" width="200" />|
 
-</center>
+</p>
 
 ### Primeros videojuegos comerciales y Empresas
 
@@ -48,13 +43,13 @@ Es el caso de [Pacaman](https://en.wikipedia.org/wiki/Pac-Man) en 1980 y [Donkey
 Despues de algunos problemas en Atari, cuantro de los programadores que trabajaban allí acaban abandonando la empresa y forman [Activision](https://www.activision.com/es/). Este será el primer distribuidor independiente para la consola de Atari.
 
 
-<center>
+<p align="center">
 
 | Pong | Space Invaders | Pacman | Donkey Kong |
 | -- | -- | -- | -- |
 | <img src="img/pong.png" width="200" />| <img src="img/space_invaders.webp" width="200" />| <img src="img/pacman.jpg" width="200" />| <img src="img/donkey_kong.png" width="200" /> |
 
-</center>
+</p>
 
 
 ### La caída
@@ -70,13 +65,13 @@ Afortunadamente en 1983 surge la [Famicom](https://es.wikipedia.org/wiki/Famicom
 Esta videoconsola es un empujón para la industria que empieza a recuperar la normalidad.
 
 
-<center>
+<p align="center">
 
 | Magnavox Odyssey | Pong Arcade | N.E.S. |
 | -- | -- | -- |
 | <img src="img/console_odyssey.webp" width="200" />| <img src="img/console_pong.jpg" width="200" />| <img src="img/console_NES.jpg" width="200" />
 
-</center>
+</p>
 
 > Los gráficos que vemos en la Magnavox Odyssey no son gráficos 'reales' ya que era una consola muy básica. Estos, son plantillas de plástico que se colocaban encima de la televisión para hacer el juego más entretenido. La consola no era capaz ni de almacenar puntuaciones.
 
@@ -123,9 +118,9 @@ Eso, sin contar la propia documentación de Unity claro. Al ser una herramienta 
 
 Unity cuenta con una versión gratuita que podremos usar siempre que no excedamos unas ganancias definidas. [Comparación planes Unity](https://store.unity.com/compare-plans).
 
-<center>
+<p align="center">
 <img src="img/summary_unity.jpg" width="80%" />
-</center>
+</p>
 
 Web: https://unity.com/es
 
@@ -140,9 +135,9 @@ Es ideal para crear juegos **[Triple A](https://es.wikipedia.org/wiki/AAA_(indus
 
 > El vocabulario marcado con asterisco (*) se encuentra explicado en el anexo. Puedes dar click en el asterisco para ir directamente.
 
-<center>
+<p align="center">
 <img src="img/summary_unreal.webp" width="80%" />
-</center>
+</p>
 
 Web: https://www.unrealengine.com
 
@@ -159,9 +154,9 @@ Hasta ahora, no ha sido el mejor motor si lo que queremos son gráficos 3D avanz
 
 Tiene una gran comunidad activa que va mejorando el código y la documentación así como la cantidad y calidad de los tutoriales.
 
-<center>
+<p align="center">
 <img src="img/summary_godot.png" width="80%" />
-</center>
+</p>
 Web: https://godotengine.org
 
 
