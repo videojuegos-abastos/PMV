@@ -18,6 +18,21 @@ Diremos por tanto que un videojuego es un juego electrónico.
 
 Hay diferentes opiniones acerca de cual fue el primer videojuego, como ya hemos visto, todo depende de la definición que demos. Tal y como lo hemos definido nosotros, los primeros ejemplos los encontramos en el [OXO](https://es.wikipedia.org/wiki/OXO) (1952) y el [Tennis for Two](https://es.wikipedia.org/wiki/Tennis_for_Two) (1958).
 
+
+<table align="center">
+
+<tr>
+<th>OXO</th>
+<th>Tennis for Two</th>
+</tr>
+
+<tr>
+<td><img src="img/oxo.jpg" width="200" /></td>
+<td><img src="img/tennis_for_two.webp" width="200" /></td>
+</tr>
+
+</table>
+
 <p align="center">
 
 | OXO | Tennis for Two |
@@ -25,6 +40,16 @@ Hay diferentes opiniones acerca de cual fue el primer videojuego, como ya hemos 
 | <img src="img/oxo.jpg" width="200" />| <img src="img/tennis_for_two.webp" width="200" />|
 
 </p>
+
+
+
+<center>
+
+| OXO | Tennis for Two |
+| -- | -- |
+| <img src="img/oxo.jpg" width="200" />| <img src="img/tennis_for_two.webp" width="200" />|
+
+</center>
 
 ### Primeros videojuegos comerciales y Empresas
 
