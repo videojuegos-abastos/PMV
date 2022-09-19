@@ -33,23 +33,6 @@ Hay diferentes opiniones acerca de cual fue el primer videojuego, como ya hemos 
 
 </table>
 
-<p align="center">
-
-| OXO | Tennis for Two |
-| -- | -- |
-| <img src="img/oxo.jpg" width="200" />| <img src="img/tennis_for_two.webp" width="200" />|
-
-</p>
-
-
-
-<center>
-
-| OXO | Tennis for Two |
-| -- | -- |
-| <img src="img/oxo.jpg" width="200" />| <img src="img/tennis_for_two.webp" width="200" />|
-
-</center>
 
 ### Primeros videojuegos comerciales y Empresas
 
@@ -68,13 +51,24 @@ Es el caso de [Pacaman](https://en.wikipedia.org/wiki/Pac-Man) en 1980 y [Donkey
 Despues de algunos problemas en Atari, cuantro de los programadores que trabajaban allí acaban abandonando la empresa y forman [Activision](https://www.activision.com/es/). Este será el primer distribuidor independiente para la consola de Atari.
 
 
-<p align="center">
+<table align="center">
 
-| Pong | Space Invaders | Pacman | Donkey Kong |
-| -- | -- | -- | -- |
-| <img src="img/pong.png" width="200" />| <img src="img/space_invaders.webp" width="200" />| <img src="img/pacman.jpg" width="200" />| <img src="img/donkey_kong.png" width="200" /> |
+<tr>
+<th>Pong</th>
+<th>Space Invaders</th>
+<th>Pacman</th>
+<th>Donkey Kong</th>
+</tr>
 
-</p>
+<tr>
+<td><img src="img/pong.png" width="200" /></td>
+<td><img src="img/space_invaders.webp" width="200" /></td>
+<td><img src="img/pacman.jpg" width="200" /></td>
+<td><img src="img/donkey_kong.png" width="200" /></td>
+</tr>
+
+</table>
+
 
 
 ### La caída
@@ -90,13 +84,21 @@ Afortunadamente en 1983 surge la [Famicom](https://es.wikipedia.org/wiki/Famicom
 Esta videoconsola es un empujón para la industria que empieza a recuperar la normalidad.
 
 
-<p align="center">
+<table align="center">
 
-| Magnavox Odyssey | Pong Arcade | N.E.S. |
-| -- | -- | -- |
-| <img src="img/console_odyssey.webp" width="200" />| <img src="img/console_pong.jpg" width="200" />| <img src="img/console_NES.jpg" width="200" />
+<tr>
+<th>Magnavox Odyssey</th>
+<th>Pong Arcade</th>
+<th>N.E.S.</th>
+</tr>
 
-</p>
+<tr>
+<td><img src="img/console_odyssey.webp" width="200" /></td>
+<td><img src="img/console_pong.jpg" width="200" /></td>
+<td><img src="img/console_NES.jpg" width="200" /></td>
+</tr>
+
+</table>
 
 > Los gráficos que vemos en la Magnavox Odyssey no son gráficos 'reales' ya que era una consola muy básica. Estos, son plantillas de plástico que se colocaban encima de la televisión para hacer el juego más entretenido. La consola no era capaz ni de almacenar puntuaciones.
 
