@@ -9,5 +9,5 @@
 7. Físicas y Colisiones
 8. Interfaz de Usuario
 
-> * te: teoría
-> * pr: práctica
+
+La carpeta **te** contiene la teoría de la asignatura, **pr** contiene las prácticas y ejemplos.
