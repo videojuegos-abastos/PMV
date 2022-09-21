@@ -8,3 +8,6 @@
 6. Modelos Materiales y Texturas
 7. Físicas y Colisiones
 8. Interfaz de Usuario
+
+> te -> teoría
+> pr -> práctica
