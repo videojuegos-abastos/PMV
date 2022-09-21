@@ -102,7 +102,7 @@ Las más importantes y las que más se usan son las que hay abiertas:
 
 > La imagen es de una versión antigua pero así vemos el layout.
 
-Unity tiene infinidad de opciones, la única forma de aprender cómo funcionan es trasteando, algunas son más fáciles de intuir mientras que para saber qué hacen otras tendremos que buscar información o preguntar. Se recomienda probar a generar un proyecto y ver algún tutorial antes de asistir a clase.
+Unity tiene infinidad de opciones, la única forma de aprender cómo funcionan es trasteando, algunas son más fáciles de intuir mientras que para saber qué hacen otras tendremos que buscar información o preguntar. En la siguiente unidad didáctica crearemos nuestro primer proyecto y utilizaremos la estructura de ventanas explicadas en este tema.
 
 > La ventana Project de Unity (el gestor de ficheros) tiene la misma estructura de carpetas que encontraremos en la ruta donde tengamos guardado el proyecto pero es importante que si creamos una carpeta, fichero o cualquier otra cosa, lo hagamos desde el propio Unity y no desde nuestro gestor del sistema operativo. Esto es porque unity guarda metadatos que no vemos y puede llevarnos a problemas. 
 
