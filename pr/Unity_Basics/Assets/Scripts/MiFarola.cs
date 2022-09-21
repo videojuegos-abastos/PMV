@@ -9,6 +9,8 @@ public class MiFarola : MonoBehaviour
 
 	float tiempoAcumulado = 0;
 
+	float intensidadInicial;
+
 	Light lightComponent;
 
     // Start is called before the first frame update
@@ -16,6 +18,8 @@ public class MiFarola : MonoBehaviour
     {
 
 		lightComponent = GetComponent<Light>();
+
+		intensidadInicial = lightComponent.intensity;
 
         Debug.Log("Hola, soy una farola intermitnte");
     }
@@ -27,15 +31,21 @@ public class MiFarola : MonoBehaviour
 		tiempoAcumulado += Time.deltaTime;
 
 
-		if (tiempoAcumulado > tiempoParaCambiar) {
+		if (tiempoAcumulado > tiempoParaCambiar)
+		{
 
-			if (lightComponent.intensity == 0) {
-				lightComponent.intensity = 20;
-			} else {
+			tiempoAcumulado = 0;
+
+
+			if (lightComponent.intensity == 0)
+			{
+				lightComponent.intensity = intensidadInicial;
+			} else
+			{
 				lightComponent.intensity = 0;
 			}
 
-			tiempoAcumulado = 0;
+			
 
 		}
 

@@ -23,7 +23,7 @@ public class MiRotador : MonoBehaviour
 
 
 		if (velocidadDeGiro > 500 && mensajeEnviado == false) {
-			Debug.Log("Dale, dale, pon más a ver qué pasa...");
+			Debug.Log("Dale, dale, a ver si revienta...");
 			mensajeEnviado = true;
 		}
 
