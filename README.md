@@ -10,4 +10,4 @@
 8. Interfaz de Usuario
 
 > * te: teoría
-> *pr: práctica
+> * pr: práctica
