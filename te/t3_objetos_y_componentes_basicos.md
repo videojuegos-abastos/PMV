@@ -1,6 +1,6 @@
 # Objetos y Componentes Básicos
 
-> Para seguir esta parte de la teoría conviene abrir el proyecto **pt_objetos_y_componentes_básicos**.
+> Para seguir esta parte de la teoría conviene abrir el proyecto **Unity_Basics**.
 > El proyecto está en una versión de Unity diferente, para abrirlo tendremos que reimportarlo a nuestra versión, aplica lo visto en el tema 2 para que funcione. 
 
 
@@ -34,7 +34,7 @@ Algunos componentes tienen propiedades que podemos cambiar y otros no. Cada comp
 
 Como vemos, hay un botón *Add Component* con el que podemos, en efecto, añadir otro componente al objeto. Este, podrá ser uno de los de Unity o uno nuestro.
 
-> Para seguir mejor la teoría, es conveniente abrir el proyecto Unity_Basics.
+> Para seguir mejor esta parte, es conveniente abrir el proyecto **Unity_Basics**.
 > Abriremos la escena **A_coordinate_components**. Lo podemos hacer dando doble click desde la ventana Project, Assets > Scenes > A_coordinate_components .
 
 Cada componente es diferente y es importante entender los más básicos, hay que tener en cuenta que algunos de ellos funcionan junto a otros. Esto significa que para que funcionen algunas cosas, dos componentes diferentes deben existir en los objetos correspondientes. Es el caso del 'Mesh Filter' y el 'Mesh Renderer' por ejemplo. Podemos crear un objeto 3D como un Cubo si queremos comprobarlo. Probemos a quitar uno de los dos componentes, al ejecutar el juego (o incluso en la vista de edición), veremos que no se rendriza.
