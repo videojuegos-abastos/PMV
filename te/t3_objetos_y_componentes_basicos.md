@@ -118,18 +118,37 @@ Aquí otra imagen con todos los conceptos:
 Obiamente, todos estos parámetros de los que hablamos los podemos editar en el componente *Camera* de Unity.
 
 
+## Objetos 3D
+
+Un objeto 3D, a nivel interno, es un conjunto de vértices y un conjunto de aristas. Un **vértice**, podemos describirlo como un punto en el espacio que puede tener o no diferentes propiedades. Por ahora no las veremos y nos quedaremos con que un vértice es un punto en el espacio.
+
+Una **arista** es simplemente una conexión entre dos vértices.
+
+Con esta información, el motor de renderizado dibuja las caras del modelo 3d. Una propiedad importante que tienen nuestros objetos son los materiales, veremos un poco mejor qué son en el apartado [luces](#luces).
 
 
+<p align="center">
+<img src="img/object3d_wireframe.png" width="80%" />
+</p>
 
 
-Las cámaras 
+## Luces
+
+Para el renderizado de escenas 3D, Unity (o cualquier motor de renderizado) tiene que convertir la información tridimensional guardada en la escena en píxeles. Esta información de la que hablamos, es obviamente todos esos vértices y aristas de todos los modelos.
+
+La luz es lo que interactúa con las caras del modelo y acaba llegando a la cámara. Esta es un poco la idea:
 
 
+<p align="center">
+<img src="img/light_path.jpg" width="80%" />
+</p>
 
+El color final que obtengamos en pantalla dependerá de varios factores, entre ellos, el material del objeto o el color y intensidad de la luz.
 
-    Escena, Cámaras, Luces, Objetos 3D
+**El material de un objeto contiene información sobre cómo interactúa la luz con este**. Propiedades como el color o la intensidad con la que refleja la luz están almacenadas aquí, podemos crear y asignar materiales a nuestros objetos 3d fácilmente en Unity.
 
-    Prefabs
+> En nuestros motores de render, existen 3 tipos de reflejos / luces. La luz ambiente, difusa y especular. Si entendemos qué es y cómo funcionan, tendremos mucho más control sobre lo que estamos haciendo. Aquí podemos ver un pequeño vídeo que las expliaca muy brevemente. [Vídeo Luces](https://www.youtube.com/watch?v=RjA_sC4bCAM) (2 min, inglés).
+
 
 ## Anexo
 
