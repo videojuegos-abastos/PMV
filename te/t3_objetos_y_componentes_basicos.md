@@ -149,6 +149,8 @@ El color final que obtengamos en pantalla dependerá de varios factores, entre e
 
 > En nuestros motores de render, existen 3 tipos de reflejos / luces. La luz ambiente, difusa y especular. Si entendemos qué es y cómo funcionan, tendremos mucho más control sobre lo que estamos haciendo. Aquí podemos ver un pequeño vídeo que las expliaca muy brevemente. [Vídeo Luces](https://www.youtube.com/watch?v=RjA_sC4bCAM) (2 min, inglés).
 
+En Unity contamos con varios tipos de luces, algunas alumbran en tiempo real mientras otras tienen que ser precalculadas. En la escena **D_lights** podemos ver algunas.
+
 
 ## Anexo
 
