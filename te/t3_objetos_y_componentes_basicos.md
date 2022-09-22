@@ -3,6 +3,9 @@
 > Para seguir esta parte de la teoría conviene abrir el proyecto **Unity_Basics**.
 > El proyecto está en una versión de Unity diferente, para abrirlo tendremos que reimportarlo a nuestra versión, aplica lo visto en el tema 2 para que funcione. 
 
+## Escenas
+
+Una **escena** es un mundo virtual en el que podemos instanciar diferentes elementos. Los juegos se componen de escenas, en unity, al abrir un proyecto nuevo se nos crea una escena por defecto. En el proyecto que hemos abierto, hay varias en la carpeta Scenes. Podemos abrirlas haciendo doble click y se distinguen por su icono y por que su extensión es '.unity'.
 
 ## Objetos y Componentes
 
@@ -55,6 +58,71 @@ De igual forma podemos desactivar los Box Collider o probar cosas. Recuerda tene
 
 Ahora que ya sabemos algo más, pasemos a la escena **B_playing**. Es una escena simple con algunas cosas nuevas, la idea de esto es que investiguemos un poco y nos familiaricemos con Unity. Toca todo lo que se te ocurra e intenta entender por qué se comportan de cierta forma algunos objetos.
 
+
+
+## Cámaras
+
+La cámara es un objeto imprescindible en nuestra escena, los objetos se renderizan y muestran por pantalla gracias a esta. Podemos tener más de una cámara y ir cambiando o incluso renderizar lo que 'graba' una cámara en otro objeto. Veamos un ejemplo porque esto puede ser un poco lío.
+
+Pensemos en un juego de carreras, en muchos de estos, se puede cambiar de cámara, podemos correr la carrera desde fuera del coche o desde dentro.
+
+<table align="center">
+
+<tr>
+<th>Cámara interior</th>
+<th>Cámara exterior</th>
+</tr>
+
+<tr>
+<td><img src="img/game_camera_inside.jpg" width="400px" /></td>
+<td><img src="img/game_camera_outside.jpg" width="400px" /></td>
+</tr>
+
+</table>
+
+¿Y qué hay de lo de renderizar una cámara en un objeto? Pues bien en la siguiente imagen vemos que tenemos una especie de retrovisor, podemos pensar que es un espejo pero la realidad es que los espejos no son nada fáciles de hacer en los juegos, una técnica comunmente usada es simplemente tener una cámara apuntando hacia atrás y que se renderiza en este pequeño plano.
+
+<p align="center">
+<img src="img/game_camera_mirror.jpg" width="80%" />
+</p>
+
+Si abrimos la tercera escena de nuestro proyecto, **C_cameras**, podemos ver algunos ejemplos de cómo usar las cámaras.
+
+<p align="center">
+<img src="img/sample_camera.png" width="80%" />
+</p>
+
+
+Aunque parezca sencillo, el cómo funcionan las cámaras se puede complicar bastante. Debemos conocer algunos conceptos clave, en la imagen de abajo, podemos ver un cono en 2D que forma la cámara. Las dimensiones de este cono dependerán del tamaño de la cámara y del **F**ield **O**f **V**iew o **FOV**.
+
+<p align="center">
+<img src="img/camera_fov.png" width="80%" />
+</p>
+
+A parte, tenemos los **clipping planes**, hay dos, el 'near' y el 'far', estos, de alguna forma, cortan el cono convirtiéndolo en una pirámide. Esta pirámide es lo que llamamos **frustrum** o **view frustrum**. 
+
+> Utilizamos lenguaje especializado para que al leer documentación técnica no nos perdamos. 
+
+<p align="center">
+<img src="img/camera_planes.jpg" width="80%" />
+</p>
+
+Todo lo que esté fuera del view frustrum no se renderizará, es decir, no se verá en pantalla. **Un objeto que se encuentra entre la cámara y el near plane NO se verá**.
+
+Aquí otra imagen con todos los conceptos:
+
+<p align="center">
+<img src="img/camera_frustrum.GIF" width="80%" />
+</p>
+
+Obiamente, todos estos parámetros de los que hablamos los podemos editar en el componente *Camera* de Unity.
+
+
+
+
+
+
+Las cámaras 
 
 
 
