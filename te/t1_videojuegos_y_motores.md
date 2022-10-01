@@ -75,7 +75,7 @@ Despues de algunos problemas en Atari, cuantro de los programadores que trabajab
 
 La industria del videojuego se va consolidando y parece que los ingresos de las empresas solo hacen que aumentar. Debido a estas expectativas, se empieza a saturar el mercado con juegos que no están a la altura y comienza a disminuir la venta de juegos y la confianza en los proveedores.
 
-Los ingresos desaparecen hasta el punto de que Warner, que había comprado Atari algunos años atras acaba vendiendo la empresa. Todo este cambio repentino tiene consecuencias para muchas otras empresas de ordenadores y videojuegos que acaban quebrando.
+Los ingresos desaparecen hasta el punto de que Warner, que había comprado Atari algunos años atrás acaba vendiendo la empresa. Todo este cambio repentino tiene consecuencias para muchas otras empresas de ordenadores y videojuegos que acaban quebrando.
 
 Después de esto empiezan a surgir dudas sobre si la industria de los videojuegos realmente tiene futuro.
 
@@ -103,7 +103,7 @@ Esta videoconsola es un empujón para la industria que empieza a recuperar la no
 > Los gráficos que vemos en la Magnavox Odyssey no son gráficos 'reales' ya que era una consola muy básica. Estos, son plantillas de plástico que se colocaban encima de la televisión para hacer el juego más entretenido. La consola no era capaz ni de almacenar puntuaciones.
 
 
-> Si os parece interesante y quereis ampliar sobre este tema, no dudeis en ver estos vídeos, cuentan la historia de la industria de los videojuegos entre los años 1972 y 1998 de una forma visual y amena. [Parte I](https://www.youtube.com/watch?v=KRRfb-pSZy8&list=RDCMUCv05qOuJ6Igbe-EyQibJgwQ), [Parte II](https://www.youtube.com/watch?v=uSdPMRV_Q3w&list=RDCMUCv05qOuJ6Igbe-EyQibJgwQ) y [Parte III](https://www.youtube.com/watch?v=RID-JDJ-_Hw&list=RDCMUCv05qOuJ6Igbe-EyQibJgwQ).
+> Si os parece interesante y queréis ampliar sobre este tema, no dudéis en ver estos vídeos, cuentan la historia de la industria de los videojuegos entre los años 1972 y 1998 de una forma visual y amena. [Parte I](https://www.youtube.com/watch?v=KRRfb-pSZy8&list=RDCMUCv05qOuJ6Igbe-EyQibJgwQ), [Parte II](https://www.youtube.com/watch?v=uSdPMRV_Q3w&list=RDCMUCv05qOuJ6Igbe-EyQibJgwQ) y [Parte III](https://www.youtube.com/watch?v=RID-JDJ-_Hw&list=RDCMUCv05qOuJ6Igbe-EyQibJgwQ).
 
 
 
@@ -116,9 +116,9 @@ En los videojuegos en general, existen ciertos aspectos y técnicas que son comu
 
 Todo esto, aunque parezca básico, si cada vez que queremos hacer un videojuego tenemos que implementarlo, nos llevaría mucho tiempo y conocimiento. Como solución a este problema, poco a poco han ido surgiendo herramientas o librerías que nos permiten abstraernos de la programación a bajo nivel de estas técnicas.
 
-La culminación de esto, son los motores de videojuegos, estos nos permiten estructurar y crear nuestros proyectos así como utilizar funcionalidades que si las tuviésemos que implentar por nosotros mismos, probablemente no lo conseguiríamos. Recordemos que estos, los programan expertos que saben perfectamente cómo funcionan las cosas, por lo que además, aplican técnicas de optimización punteras que nosotros ni nos planteamos. Esta es una de las razones por las que a veces, aunque pensemos que un motor de videojuegos, como tiene tantas cosas, va a relentizar nuestro código, acaba siento completamente al contrario.
+La culminación de esto, son los motores de videojuegos, estos nos permiten estructurar y crear nuestros proyectos así como utilizar funcionalidades que si las tuviésemos que implantar por nosotros mismos, probablemente no lo conseguiríamos. Recordemos que estos, los programan expertos que saben perfectamente cómo funcionan las cosas, por lo que además, aplican técnicas de optimización punteras que nosotros ni nos planteamos. Esta es una de las razones por las que a veces, aunque pensemos que un motor de videojuegos, como tiene tantas cosas, va a ralentizar nuestro código, acaba siento completamente al contrario.
 
-Existen motores de todo tipo, no solo lo más grandes lo son, estos, están diseñados para abarcar la gran mayoría de géneros de videojuegos, pero hay otros más pequeños que también podemos considerarlos motores. Hay algunos que ni siquiera tienen interfaz gráfica, otros que tienen como objetivo abarcar solo un género y algunos que buscan simplificar las cosas para que no se necesite ni saber programar. Obviamente, en estos últimos, las cosas que podemos hacer están muy limitadas.
+Existen motores de todo tipo, no solo los más grandes lo son, estos, están diseñados para abarcar la gran mayoría de géneros de videojuegos, pero hay otros más pequeños que también podemos considerarlos motores. Hay algunos que ni siquiera tienen interfaz gráfica, otros que tienen como objetivo abarcar solo un género y algunos que buscan simplificar las cosas para que no se necesite ni saber programar. Obviamente, en estos últimos, las cosas que podemos hacer están muy limitadas.
 
 Podemos ver una extensa [lista](https://en.wikipedia.org/wiki/List_of_game_engines) con los motores que existen, desde los más básicos hasta los más punteros.
 
@@ -139,7 +139,7 @@ Lo primero a tener en cuenta es que el motor que escojamos tiene que ser de prop
 
 Es imprescindible mirar a las empresas, actualmente Unity es si no el que más, uno de los motores más populares y que más demandan las empresas, esto es un gran punto a favor, ya que nos aseguramos que no es algo obsoleto.
 
-A parte, gracias también a su popularidad, existe una amplia comunidad y muchos tutoriales, con lo que es mucho más fácil resolver nuestras dudas o bugs en foros o encontrar videos que nos ayuden a entender mejor cómo funciona todo.
+Aparte, gracias también a su popularidad, existe una amplia comunidad y muchos tutoriales, con lo que es mucho más fácil resolver nuestras dudas o bugs en foros o encontrar videos que nos ayuden a entender mejor cómo funciona todo.
 
 Eso, sin contar la propia documentación de Unity claro. Al ser una herramienta consolidada, tiene una documentación acabada para la gran mayoría de las funcionalidades, recordemos que son herramientas en constante desarrollo y hay partes que están en proceso de documentación aún. Es el caso de [Unity Netcode](https://docs-multiplayer.unity3d.com/) por ejemplo, que es una nueva solución de Unity para los juegos multijugador.
 
@@ -160,7 +160,7 @@ Unreal Engine es una herramienta muy utilizada que destaca por su **Alto rendimi
 
 Es ideal para crear juegos **[Triple A](https://es.wikipedia.org/wiki/AAA_(industria_del_videojuego))**, esto es a su vez una ventaja y un inconveniente ya que no es el mejor motor para juegos pequeños. Aunque se necesita pedir acceso, el motor es [Open Source](https://www.unrealengine.com/en-US/ue-on-github) [*](#anexo).
 
-> El vocabulario marcado con asterisco (*) se encuentra explicado en el anexo. Puedes dar click en el asterisco para ir directamente.
+> El vocabulario marcado con asterisco (*) se encuentra explicado en el anexo. Puedes dar clic en el asterisco para ir directamente.
 
 <p align="center">
 <img src="img/summary_unreal.webp" width="80%" />
@@ -173,7 +173,7 @@ Web: https://www.unrealengine.com
 
 ### Godot
 
-Godot es un motor relativamente nuevo caracterizado por que su desarrollo está guiado por la comunidad. Es [Open Source](https://github.com/godotengine/godot) * y podemos hacer fácilmente cambios al código de forma que podemos modificarlo para que se adapte a nuestras necesidades de desarrollo. Es totalmente gratis y sin tasas ya que el código está bajo [licencia MIT](https://es.wikipedia.org/wiki/Licencia_MIT).
+Godot es un motor relativamente nuevo caracterizado porque su desarrollo está guiado por la comunidad. Es [Open Source](https://github.com/godotengine/godot) * y podemos hacer fácilmente cambios al código de forma que podemos modificarlo para que se adapte a nuestras necesidades de desarrollo. Es totalmente gratis y sin tasas ya que el código está bajo [licencia MIT](https://es.wikipedia.org/wiki/Licencia_MIT).
 
 Se puede programar en varios lenguajes, entre ellos [GDScript](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_basics.html) (parecido a python) y C#.
 
