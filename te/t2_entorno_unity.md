@@ -22,13 +22,13 @@ En esta imagen podemos ver las versiones instaladas. Los iconos de Android, IOS 
 </p>
 
 
-> Los módulos se pueden instalar y desinstalar fácilmente desde el Unity HUB desde esa misma pantalla haciendo click en **More (···) > Add Modules**.
+> Los módulos se pueden instalar y desinstalar fácilmente desde el Unity HUB desde esa misma pantalla haciendo clic en **More (···) > Add Modules**.
 >
 > Para exportar un proyecto a Android por ejemplo, necesitamos tener instalado el módulo *Android* para la versión en la que tengamos el proyecto.
 
 > Hay versiones con marca **LTS**, esto viene de "*Long Term Support*" (Soporte a largo plazo). Con esto, Unity nos está diciendo que estas versiones van a recibir actualizaciones y parches durante un periodo largo de tiempo. No todas las versiones tienen esta etiqueta, las que no lo tienen, puede que tengan pequeños bugs que nunca se solucionan y esto puede ser un quebradero de cabeza a la hora de desarrollar.
 >
-> Simpre que podamos, escojeremos versiones LTS.
+> Siempre que podamos, escogeremos versiones LTS.
 
 
 En esta otra imagen tenemos los proyectos, como vemos, podemos tener proyectos en diferentes versiones.
@@ -48,11 +48,11 @@ Si nos fijamos vemos que podemos abrir un desplegable de la versión para cada p
 
 Con este desplegable podemos cambiar la versión de proyecto pero hay que tener ojo.
 
-Cambiar la versión de un proyecto es un proceso **irreversible** y puede que no obtengamos los resultados esperados. Unity reimportará el proyecto entero y cambiará archivos internos, dependiendo de distintos factores esto puede salir bien o mal. En el caso de que salga mal y no nos compile o tengamos resultados inesperados, tendremos un **proyecto roto**. Si intentamos cambiar a la versión que teníamos anteriormente, Unity no se acordará de que antes el proyecto estaba en otra versión, lo que hará, será intentar reimportar el proyecto dando por hecho que el proyecto está bien. Esto obiamente solo va a hacer que se rompa más todavía.
+Cambiar la versión de un proyecto es un proceso **irreversible** y puede que no obtengamos los resultados esperados. Unity reimportará el proyecto entero y cambiará archivos internos, dependiendo de distintos factores esto puede salir bien o mal. En el caso de que salga mal y no nos compile o tengamos resultados inesperados, tendremos un **proyecto roto**. Si intentamos cambiar a la versión que teníamos anteriormente, Unity no se acordará de que antes el proyecto estaba en otra versión, lo que hará, será intentar reimportar el proyecto dando por hecho que el proyecto está bien. Esto obviamente solo va a hacer que se rompa más todavía.
 
 Para no cargarnos todo lo que teníamos, antes de cambiar de versión es muy importante que hagamos una copia del proyecto. Esto podemos hacerlo fácilmente clonando la carpeta en la que lo tengamos. (Recordemos que el proyecto se encuentra en la ruta que aparece).
 
-Una opción mejor a esto, es utilizar un Sistema de Control de Veriones [*](#anexo).
+Una opción mejor a esto, es utilizar un Sistema de Control de Versiones [*](#anexo).
 
 > Por lo general, evitaremos cambiar de versión y en el caso de que tengamos que hacerlo, siempre es más seguro subir un proyecto de versión que bajarlo.
 >
@@ -62,7 +62,7 @@ Crear un nuevo proyecto desde Unity HUB es muy sencillo, simplemente le daremos 
 
 Esto nos llevará a otra ventana donde seleccionaremos entre otras cosas si es un proyecto 2D o 3D y dónde almacenarlo.
 
-Si lo que queremos es importar un proyecto, lo haremos con *ADD*, simplemente seleccionaremos la carpeta en la que tenemos el proyecto y este se añadirá anuestra lista de proyectos.
+Si lo que queremos es importar un proyecto, lo haremos con *ADD*, simplemente seleccionaremos la carpeta en la que tenemos el proyecto y este se añadirá a nuestra lista de proyectos.
 
 <p align="center">
 <img src="img/hub_new.png" width="50%" />
@@ -82,8 +82,8 @@ Las versiones que nos aparecen en el HUB son las más nuevas y recomendadas, si 
 
 ## Entorno de Desarrollo 
 
-Unity se divide en varias ventanas, cada una de ellas tiene una funcionalidad concreta y las podemos identificar por el nombre. El posicionemiento de cada ventana puede cambiar ya que son totalmente personalizables. Podemos pinchar en el nombre de la ventana y arrastrarla donde queramos, incluso hacerla flotante. El propio Unity viene con layouts [*](#anexo) predeterminados.
-A parte de las ventanas que vienen 'abiertas' por defecto, hay algunas más, podemos abrirlas pinchando en el nombre de una ventana con el click derecho > Add tabs. Por ahora, usaremos las que hay, pero mencionamos esto por si cerramos sin querer alguna y no sabemos abrirla.
+Unity se divide en varias ventanas, cada una de ellas tiene una funcionalidad concreta y las podemos identificar por el nombre. El posicionamiento de cada ventana puede cambiar ya que son totalmente personalizables. Podemos pinchar en el nombre de la ventana y arrastrarla donde queramos, incluso hacerla flotante. El propio Unity viene con layouts [*](#anexo) predeterminados.
+A parte de las ventanas que vienen 'abiertas' por defecto, hay algunas más, podemos abrirlas pinchando en el nombre de una ventana con el clic derecho > Add tabs. Por ahora, usaremos las que hay, pero mencionamos esto por si cerramos sin querer alguna y no sabemos abrirla.
 
 > También podemos abrirlas desde Window > ... Aquí de hecho veremos más opciones.
 
