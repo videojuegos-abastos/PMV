@@ -147,10 +147,31 @@ El color final que obtengamos en pantalla dependerá de varios factores, entre e
 
 **El material de un objeto contiene información sobre cómo interactúa la luz con este**. Propiedades como el color o la intensidad con la que refleja la luz están almacenadas aquí, podemos crear y asignar materiales a nuestros objetos 3d fácilmente en Unity.
 
+> No hemos de confundir los Materiales 'convencionales' con los físicos. Los 'PhisicalMaterial' son otro tipo de materiales que no tienen nada que ver con el aspecto de nuestra maya. Estos definen algunas propiedades físicas de nuestros objetos que serán utilizadas por el motor de físicas.
+
 > En nuestros motores de render, existen 3 tipos de reflejos / luces. La luz ambiente, difusa y especular. Si entendemos qué es y cómo funcionan, tendremos mucho más control sobre lo que estamos haciendo. Aquí podemos ver un pequeño vídeo que las expliaca muy brevemente. [Vídeo Luces](https://www.youtube.com/watch?v=RjA_sC4bCAM) (2 min, inglés).
 
 En Unity contamos con varios tipos de luces, algunas alumbran en tiempo real mientras otras tienen que ser precalculadas. En la escena **D_lights** podemos ver algunas.
 
+Dependiendo del dispositivo en el que corra nuestra aplicación [*](#anexo), tendremos una capacidad de procesamiento, el renderizado de las escenas no es un proceso liviano, además, recordemos que los juegos se ejecutan muchas veces por segundo, con lo que para escenas complejas queremos optimizar al máximo el proceso de render.
+
+Aparte de tener distintos tipos de luces, tenemos distintas técnicas para optimizar la aplicación. Por un lado tenemos el baking, con esta técnica precalculamos la iluminación de los objetos estáticos para no tener que estar haciéndolo cada frame. Como sabemos que no se van a mover, podemos ahorrarnos cálculos.
+
+Además de objetos estáticos, en los juegos normalmente hay objetos dinámicos. Para estos no nos vale con esta técnica. De igual forma podemos también optimizar la iluminación en para estos utilizando los Light Probes. Podemos ver qué son y cómo funcionan aquí. [Light Probes](https://www.youtube.com/watch?v=_E0JXOZDTKA).
+
+
+
+## Prefabs
+
+Muchas veces, a la hora de desarrollar, vamos a tener objetos duplicados con el mismo comportamiento. Por ejemplo un enemigo. Para facilitar la creación y gestión de estos objetos utilizaremos los prefabs. Estos nos permiten tener un objeto base y instanciarlo con las mismas propiedades varias veces. La ventaja de esto es que si hemos creado varios de estos objetos y ahora queremos modificar alguna propiedad, podemos cambiarla y se actualizará para todos ellos. Esto no sucede si hacemos copia pega del objeto.
+
+> Ojo, cuando modificamos un prefab, nos referimos a modificar en 'Prefab Mode', es decir, que entramos en el prefab y modificamos sus propiedades.
+>
+> Si no estamos en prefab mode y simplemente seleccionamos el prefab ya instanciado en nuestra escena, estaremos modificando solamente ese objeto. Esto es útil para dar a diferentes objetos deiferentes propiedades. Podemos asignar a cada enemigo una velocidad distinta por ejemplo.
+
+Los prefabs nos van a permitir también instanciar objetos fácilmente en tiempo de ejecución [*](#anexo). Podemos guardarlos como assets o asignarlos directamente en el script.
 
 ## Anexo
 
+* Aplicación: Cuando hablamos de aplicación, también nos referimos a juegos.
+* Tiempo de ejecución vs Tiempo de Compilación: Hablamos de tiempo de ejecución cuando nos referimos a que el juego está corriendo. El tiempo de compilación es todo el proceso en el que estamos creando el código.
