@@ -11,3 +11,7 @@
 
 
 La carpeta **te** contiene la teoría de la asignatura, **pr** contiene las prácticas y ejemplos.
+
+# Resumen de contenidos
+
+En el archivo [Resumen de Contenidos](https://github.com/videojuegos-abastos/PMV/blob/main/te/resumen_contenidos.md) podemos ver mejor todo lo que tenemos que saber resumido y con enlaces.
