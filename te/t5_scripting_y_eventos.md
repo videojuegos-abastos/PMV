@@ -2,7 +2,7 @@
 
 En este tema vamos a ver cómo podemos interactuar con los objetos y componentes de Unity desde nuestro código y cómo crear nuestros propios componentes.
 
-# Conceptos Básicos
+## Conceptos Básicos
 
 En Unity tenemos dos clases básicas, por un lado la clase **GameObject**. Esta es una especie de contenedor de componentes anque además nos proporciona algunas funcionalidades. Por otra parte tenemos la clase **MonoBehaviour**, esta es la clase que utilizaremos para agregar funcionalidad a nuestros objetos.
 
@@ -53,13 +53,11 @@ En este caso sabemos que el componente Transform existe porque es obligatorio pe
 Ahora sí, podemos acceder a la posición del objeto. Podemos hacer que la función Start nos quede tal que:
 
 ```C#
-
 	void Start() {
 
 		Transform transformComponent = this.GetComponent<Transform>();
 
 		// Debug.Log(string s) -> Esta función se utiliza para escribir en la consola de Unity
-
 		Debug.Log("Mi posición original es: " + transformComponent.position.ToString());
 
 		transformComponent.position = new Vector3(5, 10, 6);
@@ -67,8 +65,6 @@ Ahora sí, podemos acceder a la posición del objeto. Podemos hacer que la funci
 		Debug.Log("Y ahora mi posición es: " + transformComponent.position.ToString());
 
 	}
-
-
 ```
 
 > Este código funciona para 2D y 3D.
@@ -86,11 +82,9 @@ Ahora que ya sabemos acceder desde un componente (o desde un game object) a comp
 Por ejemplo, antes hemos dicho que utilizamos la función: GetComponent<T>() para acceder a un componente desde otro. (También podemos utilizarla en un game object, después lo vemos).
 
 ```C#
-
 	class Apuntes : MonoBehaviour {
 
 		void Start() {
-
 			
 			Rigidbody rb = this.GetComponent<Rigidbody>();
 
@@ -99,11 +93,9 @@ Por ejemplo, antes hemos dicho que utilizamos la función: GetComponent<T>() par
 			// Obviamente podemos acceder a nuestros propios componentes
 			MiComponente mc = GetComponent<MiComponente>();
 
-
 			float intensity = GetComponent<Light>().intensity;
 
 			GetComponent<SpriteRenderer>().color = Color.green;
-
 
 
 			// Como ya sabemos, el componente Transform está en TODOS los GameObjects, por lo que desde un GameObject o desde sus Componentes podemos acceder:
@@ -113,13 +105,8 @@ Por ejemplo, antes hemos dicho que utilizamos la función: GetComponent<T>() par
 
 			// 2. Utilizando un 'atajo', la propiedad transform
 			Transform t = this.transform;
-
-
 		}
-
-
 	}
-
 
 ```
 
@@ -211,7 +198,8 @@ Esto funciona tanto con variables de tipos primitivos (int, string, float, etc.)
 
 	class Apuntes : MonoBehaviour {
 
-		[SerializeField] // Esto es un Atributo
+		[SerializeField] // Esto es un Atributo, lo utilizaremos para que Unity nos muestre la variable en el editor.
+
 		GameObject jugador;
 
 		// No tenemos por qué serializar el GameObject entero, podemos hacer referéncia solo a uno de sus componentes. Al arrastrar al 'hueco' un GameObject que tenga un componente de tipo Light, se hará referencia solo a ese componente. Con esto nos podemos evitar más tarde un lightGO.GetComponent<Light>().
