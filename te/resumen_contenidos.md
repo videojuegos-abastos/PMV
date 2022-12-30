@@ -20,28 +20,37 @@ En este documento repasaremos los contenidos vistos en clase y adjuntaremos brev
 
 * Cámaras y Cinemachine
 
+* Prefabs
 
-* DontDestroyOnLoad
+* Animaciones
 
 * UI
 * Audio
 
-
 * Tilemaps
-* Corrutinas
 
-* Unity Events
-* Animaciones
-* Input System
-* Atributos
-* Estructura del proyecto y GameManager
-* Prefabs
+
+
+
 
 * Package Manager y Unity Asset Store
 
+
+* Corrutinas
+
+* Unity Events
+
+* Atributos
+* Estructura del proyecto y GameManager
+
+* Input System
+
 * Scriptable Objects
-* Invoke y InvokeReapiting
-* Time.deltaTime y Time.timeScale
+
+* Otros
+	- DontDestroyOnLoad
+	- InvokeReapiting
+	- Time.deltaTime y Time.timeScale
 
 
 
@@ -130,4 +139,103 @@ Por otro lado los [Physic Material](https://docs.unity3d.com/es/530/Manual/class
 
 Explicación de cómo funcionan las cámaras en [3. Objetos y Componentes Básicos](https://github.com/videojuegos-abastos/PMV/blob/main/te/t3_objetos_y_componentes_basicos.md#c%C3%A1maras).
 
-Cinemachine es un paquete muy útil 
+[Cinemachine](https://unity.com/es/unity/features/editor/art-and-design/cinemachine) es un paquete muy útil y comunmente utilizado para controlar el movimiento de las cámaras de nuestro juego. No tenemos por qué conocer cómo funciona ya que no es algo que entre en el temario pero nos puede venir muy bien saber que existe y probarlo.
+
+## Prefabs
+
+Un [Prefab](https://docs.unity3d.com/es/530/Manual/Prefabs.html) es una especie de plantilla de objetos. Podemos crear un prefab de nuestro objeto 'Enemigo' por ejemplo. Al instanciar más de estos prefabs, todos ellos tendran las mismas propiedades que nuestro prefab original. Si modificamos cualquier propiedad en el prefab, también se modificará para todos los otro.
+
+Ojo porque no es lo mismo cambiar algo en el propio prefab que en una instancia de éste. Si modificamos solamente la instancia, tendremos un comportamiento distinto solo en esa instancia.
+
+En nuestro ejemplo del enemigo, podríamos tener el prefab enemigo con sus componentes, scripts y variables asignadas a algo por defecto y en algunos enemigos cambiar la propiedad velocidad por ejemplo para que ese enemigo en concreto se mueva más rápido.
+
+## Animaciones
+
+Hay dos partes con lo que a Animación se refiere en Unity, por un lado las Aimaciones ([Animation](https://docs.unity3d.com/es/530/ScriptReference/Animation.html)) y por otro lado el Controlador de las Animaciones ([Animation Controller](https://docs.unity3d.com/ScriptReference/Animations.AnimatorController.html)).
+
+> Recordemos que en Unity podemos animar cualquier parámetro.
+
+La idea es que una animación es simplemente una serie de modificaciones en uno o más parámetros a lo largo del tiempo. El parámetro `scale` del componente Transform o el parámetro `sprite` del componente SpriteRenderer serían dos ejemplos.
+
+El AnimationController es un componente que se encarga simplemente de controlar qué animación tiene que renderizarse en cada momento. Dejamos un [vídeo](https://www.youtube.com/watch?v=hkaysu1Z-N8) como recurso ya que es mucho más fácil de seguir.
+
+## UI
+
+La UI (User Interface) o Interfaz de usuario, es la interfaz visual que de alguna forma guía al jugador a través del juego. Por lo general suelen ser botones o textos en pantalla que no está dentro del espacio del juego.
+
+Unity tiene varios componentes para crear esta interfaz, a parte de probarlos, tenemos que tener en cuenta que estos objetos, no tienen un componente Transform, sino que tienen un Rect Transform. Jugando con el posicionamiento y el anclado de este componente podemos conseguir que al cambiar el tamaño o resolución de pantalla, nuestros elementos permanezcan como queremos visualmente.
+
+## Audio
+
+Contemplamos dos componentes para el audio en Unity, el `AudioListener` y el `AudioSource`. Como sus nombres indican, uno será el que escucha **todos** los sonidos y otro es un emisor. Solo podrá haber un AudioListener en la escena, que generalmente, aunque no tiene por qué, pondremos en la cámara.
+
+Tendremos tantos AudioSource como queramos, cada uno puede ser un sonido.
+
+Dejamos un [vídeo de introdicción](https://www.youtube.com/watch?v=6OT43pvUyfY) al audio, mencionar que para no estar poniendo y quitando sonidos a objetos, podemos crear un AudioManager, que es lo que se hace en el vídeo. Este AudioManager podemos hacerlo como queramos y complicarlo más o menos para añadir más funcionalidades. El que se crea en el vídeo es un ejemplo básico y que nos puede servir en muchos casos.
+
+Además se utiliza el patrón Singleton para no cortar la música entre escena y escena.
+
+> Por defecto ya nos viene un Audio Listener en la cámara con lo que si ponemos otro, tendremos que quitar éste.
+
+
+
+
+
+## Package Manager y Unity Asset Store
+
+Desde el Package Manager podemos descargar paquetes como el Cinemachine o los ML-Agents. Estos paquetes son oficiales de Unity, pero existen otros que no están mantenidos por el propio Unity que podemos encontrar en la Unity Asset Store.
+
+
+## Otros
+
+### Time
+
+Clase estática desde la que podemos acceder a algunos parámetros interesantes como:
+
+* deltaTime: Tiempo transcurrido entre frames.
+* timeScale: Escala a la que están sometidos los eventos que dependen del tiempo.
+
+### DontDestroyOnLoad
+
+[DontDestroyOnLoad()](https://docs.unity3d.com/ScriptReference/Object.DontDestroyOnLoad.html) es una función para 'decirle' a Unity que no destruya un objeto al cambiar de escena.
+
+
+### InvokeRepeating
+
+[InvokeRepeating()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.InvokeRepeating.html) es una función que nos puede servir para llamar a otra función de forma repetida utilizando el tiempo escalado (Time.timeScale). En muchos casos puede sustituir a los temporizadores o corrutinas.
+
+
+## Tilemaps
+
+## Corrutinas
+
+[Corutinas](https://docs.unity3d.com/Manual/Coroutines.html).
+
+## Unity Events
+
+Los [Unity Events](https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html) son eventos (muy parecidos a los de C#) pero con algunas ventajas como por ejemplo la serialización en el editor.
+
+> Los botones del UI usan UnityEvents.
+
+## Atributos
+
+[Atributos C#](https://learn.microsoft.com/es-es/dotnet/csharp/tutorials/attributes)
+
+Hemos visto algunos como:
+
+```C#
+	[SerializeField]
+
+	[Range(0, 1)]
+
+	[Header]
+
+	[Tooltip]
+
+```
+
+## Estructura del proyecto y GameManager
+
+## Input System
+
+## Scriptable Objects
