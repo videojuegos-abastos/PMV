@@ -6,51 +6,17 @@ En este documento repasaremos los contenidos vistos en clase y adjuntaremos brev
 
 ## Contenidos
 
-* Objetos y Componentes
-* Jerarquía de objetos y componente Transform
-* Objetos y componentes básicos
 
-* Escenas
-
-* Físicas: Rigidbody y Colliders
-* Mover Objetos
-
-* Instanciar y Destruir Objetos
-* Objetos 3D: Materiales
-
-* Cámaras y Cinemachine
-
-* Prefabs
-
-* Animaciones
-
-* UI
-* Audio
-
-* Tilemaps
-
-
-
-
-
-* Package Manager y Unity Asset Store
-
-
-* Corrutinas
-
-* Unity Events
-
-* Atributos
-* Estructura del proyecto y GameManager
-
-* Input System
-
-* Scriptable Objects
-
-* Otros
-	- DontDestroyOnLoad
-	- InvokeReapiting
-	- Time.deltaTime y Time.timeScale
+|  |  |  |
+| -- | -- | -- |
+| Objetos y Componentes | Jerarquía de objetos y componente Transform | Objetos y componentes básicos |
+| Escenas | Físicas: Rigidbody y Colliders | Mover Objetos |
+| Instanciar y Destruir Objetos | Objetos 3D: Materiales | Cámaras y Cinemachine |
+| Prefabs | Animaciones | UI |
+| Audio | Package Manager y Unity Asset Store | Tilemaps |
+| Corrutinas | Unity Events | Atributos |
+| Estructura del proyecto y GameManager | Input System | Scriptable Objects |
+| DontDestroyOnLoad | InvokeReapiting | Time.deltaTime y Time.timeScale |
 
 
 
