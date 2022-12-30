@@ -4,6 +4,12 @@ Algunos de los contenidos vistos en clase no se encuentran explícitamente expli
 
 En este documento repasaremos los contenidos vistos en clase y adjuntaremos breves explicaciones y enlaces de interés para refrescar la memoria.
 
+## Contribuciones
+
+Podemos contribuir a los apuntes haciendo 'Pull Requests' o creando Issues, [aquí](https://github.com/videojuegos-abastos/PMV/issues/1) podeis ver un ejemplo.
+
+Correciones ortográficas, aclaraciones, material como vídeos, sugerencias de cosas que pueden faltar, etc.
+
 ## Contenidos
 
 
