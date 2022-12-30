@@ -178,13 +178,65 @@ Además se utiliza el patrón Singleton para no cortar la música entre escena y
 > Por defecto ya nos viene un Audio Listener en la cámara con lo que si ponemos otro, tendremos que quitar éste.
 
 
-
-
-
 ## Package Manager y Unity Asset Store
 
 Desde el Package Manager podemos descargar paquetes como el Cinemachine o los ML-Agents. Estos paquetes son oficiales de Unity, pero existen otros que no están mantenidos por el propio Unity que podemos encontrar en la Unity Asset Store.
 
+## Tilemaps
+
+[Vídeo tilemaps](https://www.youtube.com/watch?v=ryISV_nH8qw)
+
+## Corrutinas
+
+[Corutinas en Unity](https://docs.unity3d.com/Manual/Coroutines.html).
+
+## Unity Events
+
+Los [Unity Events](https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html) son eventos (muy parecidos a los de C#) pero con algunas ventajas como por ejemplo la serialización en el editor.
+
+> Los botones del UI usan UnityEvents.
+
+## Atributos
+
+Loa atributos son 'etiqueas' que podemos poner en propiedades, funciones o clases que establecen algún comportamiento des estas. No es algo exclusivo de Unity sino una característica de C#. [Atributos C#](https://learn.microsoft.com/es-es/dotnet/csharp/tutorials/attributes)
+
+Hemos visto algunos como:
+
+```C#
+	
+	[Header("Ejemplos Atributos")]
+	
+	[SerializeField]
+	int velocidad;
+	
+	[Range(0f, 1f)]
+	float rango;
+
+	// Podemos tener varios atributos en la misma variable
+
+	[Range(0, 100)]
+	[Tooltip("Vida entre 0 y 100")]
+	int vida;
+
+```
+
+> Podemos crear nuestros propios atributos.
+
+## Estructura del proyecto y GameManager
+
+A la hora de hacer un juego, tener una buena estructura de proyecto es siempre un punto a favor ya que va a repercutir tanto en la calidad del código como en la organización. Cada juego es un mundo y es muy dificil que con un patrón estándar de programación todo nos cuadre perfectamente, aun así, es importante que antes de hacer nada y sobre todo si es un proyecto mediano o grande, nos planteemos cómo queremos hacer las cosas. Esto es extremadamente difícil de hacer y más si estamos empezando pero es una buena práctica intentarlo para después ver en qué estamos fallando.
+
+Un patrón muy utilizado es el Singleton Pattern, de hecho, cuando creamos un script llamado GameManager, el propio Unity nos cambia el icono aunque realmente es un script completamente normal. El GameManager es un objeto que muy usualmente tendremos en nuestro juego. Nos tiene que servir para controlar parámetros del juego comunes a **todas** las escenas como la puntuación o el dinero que podamos tener en el juego o para controlar el cambio entre escenas por ejemplo.
+
+> No es recomendable abusar de los Singletons
+
+## Input System
+
+El Input System en Unity puede ser un poco confuso, entre otras cosas porque hay varios. El 'viejo' y el 'nuevo'.
+
+## Scriptable Objects
+
+[Vídeo Scriptable Objects](https://www.youtube.com/watch?v=aPXvoWVabPY)
 
 ## Otros
 
@@ -203,39 +255,3 @@ Clase estática desde la que podemos acceder a algunos parámetros interesantes 
 ### InvokeRepeating
 
 [InvokeRepeating()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.InvokeRepeating.html) es una función que nos puede servir para llamar a otra función de forma repetida utilizando el tiempo escalado (Time.timeScale). En muchos casos puede sustituir a los temporizadores o corrutinas.
-
-
-## Tilemaps
-
-## Corrutinas
-
-[Corutinas](https://docs.unity3d.com/Manual/Coroutines.html).
-
-## Unity Events
-
-Los [Unity Events](https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html) son eventos (muy parecidos a los de C#) pero con algunas ventajas como por ejemplo la serialización en el editor.
-
-> Los botones del UI usan UnityEvents.
-
-## Atributos
-
-[Atributos C#](https://learn.microsoft.com/es-es/dotnet/csharp/tutorials/attributes)
-
-Hemos visto algunos como:
-
-```C#
-	[SerializeField]
-
-	[Range(0, 1)]
-
-	[Header]
-
-	[Tooltip]
-
-```
-
-## Estructura del proyecto y GameManager
-
-## Input System
-
-## Scriptable Objects
