@@ -170,6 +170,8 @@ Los [Unity Events](https://docs.unity3d.com/ScriptReference/Events.UnityEvent.ht
 
 > Los botones del UI usan UnityEvents.
 
+Existen varios patrones de programación que utilizan eventos para la comunicación entre clases. En [este artículo](https://bernardopacheco.net/using-an-event-manager-to-decouple-your-game-in-unity) se describe cómo crear un `EventManager` para desacoplar los objetos entre ellos. Si queremos profundizar en buenas prácticas de programación, podemos echarle un ojo.
+
 ## Atributos
 
 Loa atributos son 'etiqueas' que podemos poner en propiedades, funciones o clases que establecen algún comportamiento des estas. No es algo exclusivo de Unity sino una característica de C#. [Atributos C#](https://learn.microsoft.com/es-es/dotnet/csharp/tutorials/attributes)
@@ -203,6 +205,8 @@ A la hora de hacer un juego, tener una buena estructura de proyecto es siempre u
 Un patrón muy utilizado es el Singleton Pattern, de hecho, cuando creamos un script llamado GameManager, el propio Unity nos cambia el icono aunque realmente es un script completamente normal. El GameManager es un objeto que muy usualmente tendremos en nuestro juego. Nos tiene que servir para controlar parámetros del juego comunes a **todas** las escenas como la puntuación o el dinero que podamos tener en el juego o para controlar el cambio entre escenas por ejemplo.
 
 > No es recomendable abusar de los Singletons
+
+> En [Unity Events](#Unity Events), hemos visto que varios patrones de diseño utilizan los eventos, además se adjunta un artículo con código.
 
 ## Input System
 
