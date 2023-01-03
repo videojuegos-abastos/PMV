@@ -149,6 +149,16 @@ Además se utiliza el patrón Singleton para no cortar la música entre escena y
 
 > Por defecto ya nos viene un Audio Listener en la cámara con lo que si ponemos otro, tendremos que quitar éste.
 
+## Visual Studio Code
+
+Configuración VS Code para Unity:
+	
+* [Vídeo](https://www.youtube.com/watch?v=4WWX2_tZu5Q) configuración autocompleción funciones.
+	
+> Para **este** paso, no es necesario instalar ni Unity Code Snippets ni el debugger.
+>
+> En el vídeo se instala el plug-in oficial de [Debugger for Unity de Unity Technologies](https://marketplace.visualstudio.com/items?itemName=Unity.unity-debug). Ese plugin ya no está mantenido con lo que nosotros instalaremos [Debugger for Unity de deitry](https://marketplace.visualstudio.com/items?itemName=deitry.unity-debug)
+
 
 ## Package Manager y Unity Asset Store
 
