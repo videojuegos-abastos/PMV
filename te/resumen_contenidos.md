@@ -156,7 +156,9 @@ Desde el Package Manager podemos descargar paquetes como el Cinemachine o los ML
 
 ## Tilemaps
 
-[Vídeo tilemaps](https://www.youtube.com/watch?v=ryISV_nH8qw)
+[Vídeo tilemaps](https://www.youtube.com/watch?v=ryISV_nH8qw) (Brackeys: inglés)
+
+[Vídeo tilemaps](https://www.youtube.com/watch?v=-B72T9UqAsw) (Indierama: castellano)
 
 ## Corrutinas
 
