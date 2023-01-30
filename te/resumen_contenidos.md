@@ -113,6 +113,8 @@ Explicación de cómo funcionan las cámaras en [3. Objetos y Componentes Básic
 
 [Cinemachine](https://unity.com/es/unity/features/editor/art-and-design/cinemachine) es un paquete muy útil y comunmente utilizado para controlar el movimiento de las cámaras de nuestro juego. No tenemos por qué conocer cómo funciona ya que no es algo que entre en el temario pero nos puede venir muy bien saber que existe y probarlo.
 
+[Cinemachine confiner](https://docs.unity3d.com/Packages/com.unity.cinemachine@2.8/manual/CinemachineConfiner2D.html). `extra` `asked`
+
 ## Prefabs
 
 Un [Prefab](https://docs.unity3d.com/es/530/Manual/Prefabs.html) es una especie de plantilla de objetos. Podemos crear un prefab de nuestro objeto 'Enemigo' por ejemplo. Al instanciar más de estos prefabs, todos ellos tendran las mismas propiedades que nuestro prefab original. Si modificamos cualquier propiedad en el prefab, también se modificará para todos los otro.
@@ -245,3 +247,10 @@ Clase estática desde la que podemos acceder a algunos parámetros interesantes 
 ### InvokeRepeating
 
 [InvokeRepeating()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.InvokeRepeating.html) es una función que nos puede servir para llamar a otra función de forma repetida utilizando el tiempo escalado (Time.timeScale). En muchos casos puede sustituir a los temporizadores o corrutinas.
+
+---
+
+## Anexo
+
+* Lo marcado con `extra` es contenido que no hemos visto explícitamente en clase.
+* Lo marcado con `asked` es contenido por el que algunos alumnos se han interesado y se ha visto con esos alumnos.
