@@ -174,6 +174,8 @@ Desde el Package Manager podemos descargar paquetes como el Cinemachine o los ML
 
 [Vídeo tilemaps](https://www.youtube.com/watch?v=-B72T9UqAsw) (Indierama: castellano)
 
+Podemos tener varias **capas** para dibujar nuestro escenario, además, podemos añadir colisiones con el componente `TilemapCollider2D`. Recordemos que es conveniente utilizar también el `CompositeCollider2D`.
+
 [Editar la forma del collider por tile](https://docs.unity3d.com/Manual/CustomPhysicsShape.html)
 
 ## Corrutinas
