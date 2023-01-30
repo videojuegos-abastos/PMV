@@ -70,6 +70,8 @@ Si se cumplen estas dos condiciones, desde nuestro código, podemos utilizar las
 
 Doc. Unity: [Collider](https://docs.unity3d.com/ScriptReference/Collider.html), [Rigidbody](https://docs.unity3d.com/ScriptReference/Rigidbody.html) y [Rigidbody 2D](https://docs.unity3d.com/ScriptReference/Rigidbody2D.html).
 
+[Composite Collider](https://docs.unity3d.com/Manual/class-CompositeCollider2D.html)
+
 > Los Componentes Collider y Rigidbody distinguen entre 2D y 3D al igual que sus funciones de callback.
 
 ## Mover Objetos
