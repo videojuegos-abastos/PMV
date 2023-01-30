@@ -170,6 +170,8 @@ Desde el Package Manager podemos descargar paquetes como el Cinemachine o los ML
 
 [Vídeo tilemaps](https://www.youtube.com/watch?v=-B72T9UqAsw) (Indierama: castellano)
 
+[Editar la forma del collider por tile](https://docs.unity3d.com/Manual/CustomPhysicsShape.html)
+
 ## Corrutinas
 
 [Corutinas en Unity](https://docs.unity3d.com/Manual/Coroutines.html).
